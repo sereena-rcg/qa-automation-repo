@@ -1,0 +1,114 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e7]:
+    - link [ref=e8] [cursor=pointer]:
+      - /url: "#"
+    - navigation [ref=e9]:
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - link "My Profile" [ref=e12] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e13]:
+          - generic "Last logged in:" [ref=e14] [cursor=pointer]: Sereena
+        - listitem [ref=e16]:
+          - generic [ref=e17] [cursor=pointer]:
+            - generic [ref=e18]: Organizational Unit
+            - text: ":"
+            - combobox [ref=e19]:
+              - option "SSEA" [selected]
+              - option "CEL"
+              - option "RCI"
+        - listitem [ref=e20]:
+          - generic [ref=e21] [cursor=pointer]:
+            - text: "Role :"
+            - combobox [ref=e22]:
+              - option "BusinessAdmin" [selected]
+        - listitem [ref=e23]:
+          - generic [ref=e24] [cursor=pointer]:
+            - text: "Market :"
+            - combobox [ref=e25]:
+              - option "ASA"
+              - option "UKI"
+              - option "CAN"
+              - option "REU" [selected]
+              - option "MEA"
+              - option "USA"
+              - option "MEX"
+              - option "LAT"
+              - option "GER"
+              - option "SGP"
+              - option "AST"
+        - listitem [ref=e26]:
+          - generic [ref=e27] [cursor=pointer]:
+            - text: "Currency :"
+            - combobox [ref=e28]:
+              - option "EUR" [selected]
+              - option "GBP"
+              - option "USD"
+        - listitem [ref=e29]:
+          - generic "Notifications" [ref=e30] [cursor=pointer]:
+            - generic [ref=e32]: "0"
+        - listitem [ref=e33]
+        - listitem [ref=e36]:
+          - generic "Royal Caribbean Group" [ref=e37] [cursor=pointer]: "Client : Royal Caribbean Group"
+        - listitem [ref=e38]:
+          - generic "Logout" [ref=e39] [cursor=pointer]
+  - list [ref=e44]:
+    - listitem [ref=e45] [cursor=pointer]
+    - listitem [ref=e48] [cursor=pointer]
+    - listitem [ref=e51] [cursor=pointer]
+    - listitem [ref=e54] [cursor=pointer]
+    - listitem [ref=e57] [cursor=pointer]
+    - listitem [ref=e60] [cursor=pointer]
+    - listitem [ref=e63] [cursor=pointer]
+    - listitem [ref=e66] [cursor=pointer]
+    - listitem [ref=e69] [cursor=pointer]
+    - listitem [ref=e72] [cursor=pointer]
+    - listitem [ref=e75] [cursor=pointer]
+    - listitem [ref=e78] [cursor=pointer]
+    - listitem [ref=e81] [cursor=pointer]
+    - listitem [ref=e84] [cursor=pointer]
+    - listitem [ref=e87] [cursor=pointer]
+  - generic [ref=e91]:
+    - tablist [ref=e92]:
+      - tab "Home" [active] [selected] [ref=e94]:
+        - link "Home" [ref=e95]:
+          - /url: https://staging2.royalx.rccl.com/iTravel/production/static/7.0.321_doma/en_US/base/pages/index.html#W1
+        - generic [ref=e96] [cursor=pointer]: Remove Tab
+    - tabpanel "Home" [ref=e97]:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - navigation
+                - generic [ref=e101]:
+                  - heading "Applications" [level=1] [ref=e102]
+                  - list [ref=e103]:
+                    - listitem [ref=e104]:
+                      - link "Selling App" [ref=e105] [cursor=pointer]:
+                        - /url: https://staging2.royalx.rccl.com/iTravel/shopping/static/7.0.321_doma/en_US/A5/pages/peacoc-index.html
+                        - generic [ref=e108]: Selling App
+                    - listitem [ref=e109]:
+                      - link "Operations" [ref=e110] [cursor=pointer]:
+                        - /url: https://staging2.royalx.rccl.com/iTravel/shopping/static/7.0.321_doma/en_US/A5/pages/tourops-index.html
+                        - generic [ref=e113]: Operations
+                    - listitem [ref=e114]:
+                      - link "Dining" [ref=e115] [cursor=pointer]:
+                        - /url: CM_DINING_URL
+                        - generic [ref=e118]: Dining
+                    - listitem [ref=e119]:
+                      - link "Ship Transmission" [ref=e120] [cursor=pointer]:
+                        - /url: https://staging2.royalx.rccl.com/iTravel/shiptransmission/static/7.0.321_doma/en_US/A5/pages/shiptransmission/shiptransmission-index.html
+                        - generic [ref=e123]: Ship Transmission
+                    - listitem [ref=e124]:
+                      - generic "TO" [ref=e125]:
+                        - generic [ref=e128]:
+                          - text: Tour Operators
+                          - text: Workbench
+  - contentinfo [ref=e129]:
+    - generic [ref=e131] [cursor=pointer]: © IBS Software Services Pvt Ltd
+    - generic [ref=e133] [cursor=pointer]: Module Versions
+```

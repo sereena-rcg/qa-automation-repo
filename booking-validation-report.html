@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Booking Financial Validation Report</title>
+<style>
+body {
+  font-family: Arial;
+  background: #f0f6ff;
+  padding: 20px;
+}
+h1 {
+  color: #0b3c91;
+}
+.section {
+  background: white;
+  border-left: 6px solid #1e5fd8;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #d0d7e5;
+  padding: 10px;
+}
+th {
+  background: #1e5fd8;
+  color: white;
+}
+.pass {
+  color: green;
+}
+.fail {
+  color: red;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Booking Financial Validation Report</h1>
+
+<div class="section">
+<b>Test Case ID:</b> TC001
+</div>
+
+<div class="section">
+<h3>Captured Amounts</h3>
+<table>
+<tr><th>Source</th><th>Amount</th></tr>
+<tr><td>Selling App</td><td>EUR 20,026,998.00</td></tr>
+<tr><td>Accounting Module</td><td>N/A</td></tr>
+</table>
+</div>
+
+<div class="section">
+<h3>Expected Outcome</h3>
+<ul>
+<li>Selling App page loaded</li><li>Clicked on Retrieve Bookings tab</li><li>Booking ID entered</li><li>Search button clicked</li><li>Network idle, results should be loaded</li><li>Total Amount Paid captured</li><li>Finance & Accounting page loaded</li><li>Hamburger menu clicked</li><li>Clicked Finance & Accounting</li><li>Clicked Booking Enquiries</li><li>Clicked Booking Financial Enquiry</li><li>Booking Number entered in Accounting module</li><li>Triggered blur event to load financial details</li><li>Clicked View Details</li><li>Total Received captured</li><li>Amounts validated successfully</li>
+</ul>
+</div>
+
+<div class="section">
+<h3>Actual Outcome (Passed Steps)</h3>
+<ul class="pass">
+<li>Selling App page loaded</li><li>Clicked on Retrieve Bookings tab</li><li>Booking ID entered</li><li>Search button clicked</li><li>Network idle, results should be loaded</li><li>Total Amount Paid (Selling App): EUR</li><li>Finance &amp; Accounting page loaded</li>
+</ul>
+</div>
+
+</body>
+</html>

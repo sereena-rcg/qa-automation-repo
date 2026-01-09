@@ -1,0 +1,23 @@
+{
+  "name": "playwrightdemo",
+  "version": "1.0.0",
+  "description": "Playwright tests for the app",
+  "scripts": {
+    "test": "playwright test && playwright show-report",
+    "test:headed": "playwright test --headed && playwright show-report",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "install-browsers": "npx playwright install",
+    "generate-storage": "node ./scripts/generateStorageState.js",
+    "generate:custom-report": "node generate-html-report.js",
+    "test:full": "playwright test && node generate-html-report.js && playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "fs": "^0.0.1-security",
+    "xlsx": "^0.18.5"
+  }
+}
